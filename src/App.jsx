@@ -28,11 +28,38 @@ import ExampleTwo from './components/compo/ExampleTwo'
 import ExampleThree from './components/compo/ExampleThree'
 import TodoList from './components/useState/TodoList'
 import Profile from './components/useState/Profile'
+import ShopingList from './components/useState/ShopingList'
+import CopyInput from './components/CopyInput/copyInput'
+import Switch from './components/AdvanceKey/Switch'
+import ClassWork from './components/UseEffect/ClassWork'
+import FetchData from './components/UseEffect/fetchData'
+import BasicUseEffect from './components/UseEffect/BasicUseEffect'
+import PropsDrilling from './components/PropsDrill/PropsDrilling'
+import ComponentC1 from './components/ContextAPI/ComponentC1'
+import ComponentA1 from './components/ContextAPI/ComponentA1'
+import ContextPra from './components/ContextAPI/Context'
+import UserProvider from './components/ContextAPI/Challenges/UserProvider'
+import Reduer from './components/Reducer/Reduer'
+// import ComponentC from './components/PropsDrill/ComponentC'
+
 export const App = () => {
   return (
    
     <div>
-      <Profile/>
+      <Reduer/>
+      {/* <UserProvider/> */}
+      {/* <ComponentA1/> */}
+      {/* <ContextPra/>   */}
+      {/* <PropsDrilling/>
+      <ComponentC/> */}
+      {/* <BasicUseEffect/> */}
+      {/* <FetchData/> */}
+      {/* <ClassWork/> */}
+      {/* <CopyInput/>
+      <Switch/> */}
+      {/* <ShopingList/> */}
+
+      {/* <Profile/> */}
       {/* <TodoList/> */}
       {/* <ExampleThree/> */}
       {/* <ExampleOne/>
