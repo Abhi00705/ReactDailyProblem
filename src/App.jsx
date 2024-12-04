@@ -37,16 +37,27 @@ import BasicUseEffect from './components/UseEffect/BasicUseEffect'
 import PropsDrilling from './components/PropsDrill/PropsDrilling'
 import ComponentC1 from './components/ContextAPI/ComponentC1'
 import ComponentA1 from './components/ContextAPI/ComponentA1'
-import ContextPra from './components/ContextAPI/Context'
+// import ContextPra from './components/ContextAPI/Context'
 import UserProvider from './components/ContextAPI/Challenges/UserProvider'
 import Reduer from './components/Reducer/Reduer'
+import Counter from './components/Reducer/challenges/counter'
+import UseRef from './components/useRef/UseRef'
+import FocusInput from './components/useRef/Challenge/FocusInput'
+import Timer from './components/useRef/Challenge/Timer'
+import ToggleComponent from './components/customHook/challenges/ToggleComponent'
 // import ComponentC from './components/PropsDrill/ComponentC'
 
 export const App = () => {
   return (
    
     <div>
-      <Reduer/>
+      {/* <Timer/>
+      <FocusInput/>
+      <FetchData/> */}
+      <ToggleComponent/>
+      {/* <UseRef/> */}
+      {/* <Counter/> */}
+      {/* <Reduer/> */}
       {/* <UserProvider/> */}
       {/* <ComponentA1/> */}
       {/* <ContextPra/>   */}
